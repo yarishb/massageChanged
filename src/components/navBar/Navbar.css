@@ -1,0 +1,74 @@
+
+.navBar{
+    background-color: rgba(255, 255, 255, 0.87);
+    padding-top: 10px;
+    padding-bottom: 19px;
+    display: flex;
+    position: relative;
+}
+.navLimit{
+    font-size: 100px
+}
+
+.navLogo{
+    text-decoration: none;
+    width: 100%;
+    padding-left: 10px;
+    font-family: serif;
+    font-size: 30px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.navLinks{
+    text-decoration: none;
+    justify-content: center;
+    right: 0;
+    position: absolute;
+    float: left;
+    padding-right: 3rem;
+    font-size: 22px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+.nav{
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.9);
+    margin-top: 4px;
+    float: left;
+    margin-right: 3rem;
+    position: relative;
+}
+
+.nav::after {
+    content: "";
+    position: absolute;
+    bottom: -3px;
+    left: 0;
+    width: 0;
+    transition: 0.4s;
+    height: 2px;
+    background-color: #abf0e9;
+  }
+  
+  .nav:hover::after {
+    width: 100%;
+  }
+
+  .navBuy{
+    transition: .2s;
+    margin-top: 1px;
+    float: left;
+    margin-right: 3rem;
+    position: relative;
+    padding: 4px 4px 4px 4px;
+    border: 1.7px solid #abf0e9;
+    border-radius: 15px;
+  }
+  .navBuy:hover{
+      border-radius: 5px;
+      transition: .2s;
+      padding: 4px 4px 4px 4px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, .2);
+  }
+

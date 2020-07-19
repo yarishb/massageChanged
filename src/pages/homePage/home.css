@@ -1,0 +1,106 @@
+
+.parallaxPhoto{
+    width: 100%;
+    height: 100%;
+}
+
+.heading{
+    padding-top: 10rem;
+    padding-bottom: 17rem;
+    text-align: center;
+    font-family: serif;
+    color: rgba(255, 255, 255, 1);
+    font-size: 70px;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.headingsubtxt{
+    position: relative;
+    font-size: 27px;
+    font-family: sans-serif;
+}
+
+.education{
+    margin-top: 5rem;
+    display: block;
+    width: 100%;
+    height: 32rem;
+    display: flex;
+}
+
+.eduPhoto{
+    padding-left: 1.5rem;
+    height: 30rem;
+    width: 40rem;
+}
+
+.eduHeading{
+    font-size: 30px;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+
+.eduText{
+    font-size: 20px;
+    padding-left: 5rem;
+    position: relative;
+}
+.eduTextAll{
+    padding-top: 5rem;
+}
+
+.testimonialImage{
+    height: 30rem;
+}
+.testimonial{
+    margin-right: 1.8rem;
+    float: right;
+    width: 40rem;
+    margin-bottom: 2rem;
+}
+
+.items{
+    padding-top: 12rem;
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+.items::after{
+    content:"";
+    position: absolute;
+    z-index: -1;
+    width: 100%;
+    background-color: #abf0e9;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+
+    transform-origin: top right;
+    transform: skewY(-11deg);
+}
+
+.itemText{
+    padding-top: 1rem;
+    font-size: 20px;
+    position: relative;
+}
+.itemHeading{
+    margin-top: 5rem;
+    font-size: 30px;
+    padding-left: 5rem;
+    padding-bottom: 1rem;
+    position: relative;
+}
+.itemsTextAll{
+    padding-right: 2rem;
+}
+
+@media screen and (max-device-width: 500px){
+    .itemText{
+        font-size: 15px;
+    }
+}

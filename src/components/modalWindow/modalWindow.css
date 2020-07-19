@@ -1,0 +1,124 @@
+.modal{
+    margin-top: 2.7rem;
+    text-align: center;
+    background-color: rgba(255,255,255, 0.85);
+    color: rgba(0, 0, 0, .7);
+    position: fixed;
+    height: 24rem;
+    width: 35rem;
+    z-index: 2;
+    border: 2.5px solid #abf0e9;
+    border-radius: 10px;
+}
+
+.modalCenter{
+    display: flex;
+    justify-content: center;
+}
+
+.modalFull{
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0.05);
+}
+
+
+.modalClose{
+    text-align: center;
+    -webkit-transition: all 0.2s ease-in;
+    padding-top: 3px;
+    padding-right: 3px;
+    width: 25px;
+    height: 25px;
+    float: right;
+    color: black;
+}
+.modalClose:hover{
+    transition: .1s;
+    color: red;
+}
+.inputHeading{
+    padding-left: 15px;
+    padding-top: 10px;
+    font-family: sans-serif;
+    font-size: 30px; 
+    font-weight: 600;
+    color: rgba(0, 0, 0, 0.73);
+}
+.inputSubHeading{
+    padding-top: 0.5px;
+    font-size: 18px;
+    font-weight: 500; 
+    color: rgba(0, 0, 0, 0.7);
+    margin-bottom: 1.5rem;
+}
+
+.inputInput{
+     outline: none;
+    -webkit-transition: all 0.2s ease-in;
+    margin-top: 0.8rem;
+    padding-left: 3rem;
+    height: 3rem;
+    width: 68%;
+    border-radius: 20px;
+    border: 2px solid #abf0e9;
+    font-size: 25px;
+}
+.inputInput:hover{
+    -webkit-transition: all 0.2s ease-in;
+    border: 2px solid #baf1a1;
+}
+
+.inputRelative{
+    position: relative;
+    width: 100%;
+}
+
+.inputIcon{
+    margin-top: 23px;
+    margin-left: 12px;
+    position: absolute;
+}
+
+.inputButton{
+    transition: .2s;
+    outline: none;
+    border: 2px solid #abf0e9;
+    margin-top: 2.5rem;
+    width: 77%;
+    height: 3rem;
+    background-color: #fff;
+    font-size: 20px;
+    border-radius: 20px;
+}
+
+.inputButton:hover{
+    color: #fff;
+    background-color: #abf0e9;
+    transition: .2s;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, .2);
+}
+
+.success{
+    margin-top: 3.2rem;
+    width: 35rem;
+    height: 3rem;
+    background-color: #baf1a1;
+    color: #fff;
+    font-size: 30px;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+@media screen and (max-device-width: 500px){
+    .inputIcon{
+        margin-top: 30px;
+    }
+}
