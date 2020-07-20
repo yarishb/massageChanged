@@ -5,7 +5,7 @@ import Pricing from './pages/Pricing/Pricing'
 //import Navbar from './components/navBar/Navbar';
 import Reviews from './pages/reviews/Reviews'
 //import ModalWindow from './components/modalWindow/modalWindow';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { HashRouter as Router, Route, Switch } from "react-router-dom";
 
 function App() {
   return (

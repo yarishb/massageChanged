@@ -12,9 +12,9 @@ class Navbar extends Component {
     return (
         <>
         <div className="navBar">
-            <div className="navLogo">
+            <NavLink className="nav" to="/"><div className="navLogo">
             Масаж Самбір
-            </div>
+            </div></NavLink>
             <div className="navLinks">
             <NavLink  className="nav"  to="/">
                 Про нас
@@ -22,7 +22,7 @@ class Navbar extends Component {
             <NavLink  className="nav" to="/prices">
                 Ціни
             </NavLink>
-            <a className="nav" href="/reviews">
+            <a className="nav" href="https://www.facebook.com/pg/MassageInSambir/reviews">
                 Відгуки
             </a>
             <div className="navBuy" onClick={(e) => this.setState({ isOpen: true })}>

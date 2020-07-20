@@ -1,6 +1,7 @@
 {
   "name": "massage",
   "version": "0.1.0",
+  "homepage": "https://yarishb.github.io/massageSambir/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -9,6 +10,7 @@
     "aos": "^2.3.4",
     "axios": "^0.19.2",
     "bootstrap": "^4.5.0",
+    "gh-pages": "^3.1.0",
     "keymirror": "^0.1.1",
     "react": "^16.13.1",
     "react-bootstrap": "^1.0.1",
@@ -21,6 +23,8 @@
   },
   "scripts": {
     "start": "react-scripts start",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
