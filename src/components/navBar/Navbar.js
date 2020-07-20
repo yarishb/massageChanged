@@ -12,7 +12,7 @@ class Navbar extends Component {
     return (
         <>
         <div className="navBar">
-            <NavLink className="nav" to="/"><div className="navLogo">
+            <NavLink to="/"><div className="navLogo">
             Масаж Самбір
             </div></NavLink>
             <div className="navLinks">
